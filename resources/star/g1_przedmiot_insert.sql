@@ -1,0 +1,10 @@
+INSERT INTO g1_przedmiot VALUES (1,'FIZYKA','W');
+INSERT INTO g1_przedmiot VALUES (2,'FIZYKA-L','L');
+INSERT INTO g1_przedmiot VALUES (3,'FIZYKA-C','P');
+INSERT INTO g1_przedmiot VALUES (4,'POLSKI','W');
+INSERT INTO g1_przedmiot VALUES (5,'POLSKI','L');
+INSERT INTO g1_przedmiot VALUES (6,'FIZYKA','P');
+INSERT INTO g1_przedmiot VALUES (7,'BIOLOGIA','W');
+INSERT INTO g1_przedmiot VALUES (8,'BIOL-L','W');
+INSERT INTO g1_przedmiot VALUES (9,'CHEMIA','L');
+INSERT INTO g1_przedmiot VALUES (10,'INFORMATYKA','W');
