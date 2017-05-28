@@ -29,28 +29,19 @@ public class Teacher {
         try(PrintWriter out = new PrintWriter(this.outFilePath, "UTF-8")) {
             for(int i = 0; i < this.howManyRecordsGenerate; i++) {
 
-                String insert = "INSERT INTO " + this.tableName + "(";
-                String columns = "";
-                for(int j = 0; j < this.columnsNames.length; j++) {
-                    columns += this.columnsNames[j] + ",";
-                }
-
-                insert += columns.substring(0, columns.length()-1);
-                insert += ") VALUES(";
+                String insert = "";
                 insert += (i+1) + ",";
 
                 String firstUpper = this.surnames.get(this.generator.nextInt(this.surnames.size() -1));
                 firstUpper = Character.toUpperCase(firstUpper.charAt(0)) + firstUpper.substring(1);
-                insert += "'" + firstUpper + "',";
+                insert += "\"" + firstUpper + "\",";
 
                 firstUpper = this.names.get(this.generator.nextInt(this.names.size()-1));
                 firstUpper = Character.toUpperCase(firstUpper.charAt(0)) + firstUpper.substring(1);
-                insert += "'" + firstUpper + "',";
+                insert += "\"" + firstUpper + "\",";
 
 
-                insert += "'" + this.grades[ this.generator.nextInt( this.grades.length ) ] + "'";
-
-                insert += ");";
+                insert += "\"" + this.grades[ this.generator.nextInt( this.grades.length ) ] + "\"";
 
                 out.println(insert);
             }

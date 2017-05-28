@@ -5,6 +5,8 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+import static jdk.nashorn.internal.objects.NativeString.trim;
+
 /**
  * Created by Acer on 30.03.2017.
  */
@@ -16,7 +18,7 @@ public class FileReader {
             in = new Scanner(Paths.get(filename), "UTF-8");
             while(in.hasNextLine())
             {
-                result.add(in.nextLine());
+                result.add(trim(in.nextLine()));
             }
         }
         catch(NumberFormatException | IOException e)
