@@ -1,41 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aaadbedd-a042-44d9-86e6-a3795b6bf5e7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/StarGenerator.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/star/g1_credit_insert1.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/star/g1_credit_insert2.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/star/g1_credit_insert3.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/star/g1_credit_insert4.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/star/g1_credit_insert5.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/star/g1_przedmiot_insert.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/star/g1_sala.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/star/g1_sala_insert.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/star/g1_student.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/star/g1_student_insert.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/star/g1_termin.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/star/g1_termin_insert.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/star/g1_wykladowca.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/star/g1_wykladowca_insert.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/star/g1_zaliczenie.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/star/star.rar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/star/zaliczenie/g1_credit_insert1.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/star/zaliczenie/g1_credit_insert2.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/star/zaliczenie/g1_credit_insert3.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/star/zaliczenie/g1_credit_insert4.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/star/zaliczenie/g1_credit_insert5.sql" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SqlGenerator/myReader/FileReader.class" afterPath="$PROJECT_DIR$/out/production/SqlGenerator/myReader/FileReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SqlGenerator/star/Credit.class" afterPath="$PROJECT_DIR$/out/production/SqlGenerator/star/Credit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SqlGenerator/star/Student.class" afterPath="$PROJECT_DIR$/out/production/SqlGenerator/star/Student.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SqlGenerator/star/Teacher.class" afterPath="$PROJECT_DIR$/out/production/SqlGenerator/star/Teacher.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/myReader/FileReader.java" afterPath="$PROJECT_DIR$/src/myReader/FileReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/star/Credit.java" afterPath="$PROJECT_DIR$/src/star/Credit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/star/Student.java" afterPath="$PROJECT_DIR$/src/star/Student.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/star/Teacher.java" afterPath="$PROJECT_DIR$/src/star/Teacher.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/star/create.sql" afterPath="$PROJECT_DIR$/resources/out/star/create.sql" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/star/g1_przedmiot.csv" afterPath="$PROJECT_DIR$/resources/out/star/g1_przedmiot.csv" />
-    </list>
+    <list default="true" id="aaadbedd-a042-44d9-86e6-a3795b6bf5e7" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,7 +16,7 @@
       <file leaf-file-name="StarGenerator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/StarGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
+            <state relative-caret-position="390">
               <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -642,7 +608,7 @@
       <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2651391" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2651391" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17357223" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1061,7 +1027,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StarGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
+        <state relative-caret-position="390">
           <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
